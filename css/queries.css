@@ -1,0 +1,94 @@
+@media (max-width: 68rem) {
+    /* 1088px */
+    html {
+        font-size: 90%;
+    }
+    .main-container{
+        width: 85%;
+    }
+}
+
+@media (max-width: 59.5rem) {
+    /* 952px */
+    html {
+        font-size: 80%;
+    }
+    .hero-section {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .core-hero {
+        max-width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-heading, .hero-text {
+        text-align: center;
+    }
+    .ratings {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+    .rate-child:last-child {
+        grid-column: auto / span 2;
+        justify-self: center;
+    }
+    .rate-child {
+        transform: translate(0, 0);
+    }
+    .hide {
+        display: none;
+    }
+
+}
+
+@media (max-width: 49.5rem) {
+/*    792px */
+    html {
+        font-size: 70%;
+    }
+    body {
+        background-image: url("/social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("/social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: top left, bottom right;
+        background-size: 80% 30%, 50% 50%;
+        background-attachment: fixed, fixed;
+    }
+    .hero-section {
+        margin-bottom: 6rem;
+    }
+    .rate-child {
+        flex-direction: column;
+    }
+    .reviews-section {
+        margin: 0 auto;
+        max-width: 400px;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 29.5rem) {
+/*    472px  */
+    html {
+        font-size: 50%;
+    }
+    .ratings {
+        width: 100%;
+        grid-template-columns: 1fr;
+
+    }
+    .rate-child {
+        width: 100%;
+    }
+    .rate-child:last-child {
+        grid-column: auto / span 1;
+    }
+    .ratings-text {
+        text-align: center;
+    }
+    .review-img{
+        width: 10%;
+    }
+}
