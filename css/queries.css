@@ -49,7 +49,7 @@
         font-size: 70%;
     }
     body {
-        background-image: url("/social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("/social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
+        background-image: url("../social-proof-section-master/images/bg-pattern-top-mobile.svg"), url("../social-proof-section-master/images/bg-pattern-bottom-mobile.svg");
         background-repeat: no-repeat, no-repeat;
         background-position: top left, bottom right;
         background-size: 80% 30%, 50% 50%;
